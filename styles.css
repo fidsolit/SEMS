@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.mainContainer {
+  background-color: #333;
+  height: 100vh;
+  width: 100vw;
+}
+.mainTitle {
+  /* School Event Management System */
+
+  font-family: "Koh Santepheap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 30px;
+
+  color: #ffffff;
+}
+
+.login {
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login h3 {
+  margin-top: 0;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login label {
+  margin: 5px 0 2px;
+}
+
+.login input {
+  margin: 5px 0 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background-color: #45a049;
+}
+
+.login p {
+  margin: 5px 0;
+  font-size: 0.9em;
+}
+
+.login p a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.login p a:hover {
+  text-decoration: underline;
+}
